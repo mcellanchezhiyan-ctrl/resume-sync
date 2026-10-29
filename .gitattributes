@@ -1,0 +1,12 @@
+# Normalize line endings across Windows/macOS/Linux collaborators
+* text=auto
+
+# Keep Windows scripts with CRLF, shell scripts with LF
+*.ps1 text eol=crlf
+*.sh text eol=lf
+
+# Never normalize binary files
+*.png binary
+*.jpg binary
+*.ico binary
+*.db binary
